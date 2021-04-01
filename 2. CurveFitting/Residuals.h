@@ -16,5 +16,9 @@ private:
 };
 
 ceres::CostFunction* genMyExponentialResidualBlock(double _x, double _y) {
-   return ( new ceres::AutoDiffCostFunction<MyExponentialResidual, 1, 1, 1>(new MyExponentialResidual(_x, _y)) );
+   return ( new ceres::AutoDiffCostFunction<
+              MyExponentialResidual, 
+              1 /*kNumResiduals*/, 
+              1 /* Size of each 1th parameter (i.e., m) block */,  
+              1 /* Size of each 2th parameter (i.e., c) block */ >(new MyExponentialResidual(_x, _y)) );
 }

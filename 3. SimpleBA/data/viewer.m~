@@ -1,0 +1,9 @@
+
+
+xyz = readmatrix("problem-707-78455-pre.txt.result.iter00.txt");
+
+markerSize = 100;
+figure(2); clf;
+pcshow(xyz, 'MarkerSize', markerSize);
+
+pcwrite(xyz, )

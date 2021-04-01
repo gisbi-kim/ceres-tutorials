@@ -58,6 +58,8 @@ int main(int argc, char** argv)
   std::cout << "Final   m: " << m << " c: " << c << "\n";
   std::cout << "GT      m: " << 0.3 << " c: " << 0.1 << "\n";
 
+  std::cout << summary.FullReport() << "\n";
+
   for(auto & _elm: my_callback.x_values) {
     cout << _elm << " - num total iterations: " << my_callback.calls << endl;
   }

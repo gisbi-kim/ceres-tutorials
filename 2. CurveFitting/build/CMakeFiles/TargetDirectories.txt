@@ -1,3 +1,0 @@
-/home/user/Downloads/ceres/tuto1/ceres-tutorials/2. CurveFitting/build/CMakeFiles/rebuild_cache.dir
-/home/user/Downloads/ceres/tuto1/ceres-tutorials/2. CurveFitting/build/CMakeFiles/main.dir
-/home/user/Downloads/ceres/tuto1/ceres-tutorials/2. CurveFitting/build/CMakeFiles/edit_cache.dir
