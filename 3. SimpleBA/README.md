@@ -1,7 +1,10 @@
+# Sipmle BA
 
-# Download the data at here 
+## Download the data at here 
 - http://grail.cs.washington.edu/projects/bal/
-  - for the loss, follow this equation (i.e., reprojection measurement model) 
+
+## Residual Implementation 
+  - For the loss, follow this equation (i.e., reprojection measurement model) 
     ```
     P  =  R * X + t       (conversion from world to camera coordinates)
     p  = -P / P.z         (perspective division)
