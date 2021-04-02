@@ -37,7 +37,8 @@
 
 #include "ceres/internal/port.h"
 
-namespace ceres {
+// namespace ceres {
+namespace rp1 {
 
 inline void SetRandomState(int state) { srand(state); }
 
@@ -68,6 +69,6 @@ inline double RandNormal() {
   return x1 * w;
 }
 
-}  // namespace ceres
+}  // namespace rp1
 
 #endif  // CERES_INTERNAL_RANDOM_H_
